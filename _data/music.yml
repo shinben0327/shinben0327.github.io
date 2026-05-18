@@ -1,0 +1,40 @@
+# Music shelf for /interests/. Add entries to the top.
+#
+# Each entry should have EITHER an album/cover image OR an embedded YouTube video:
+#   cover:   path to a local image under assets/img/interests/music/...
+#   youtube: the 11-char YouTube video ID (the part after `v=` in a watch URL,
+#            or after `/embed/` in an embed URL — NOT the full URL)
+#
+# Optional fields:
+#   title    — track or album name (shown under the cover)
+#   artist   — artist name (shown under the title)
+#   link     — opens when you click an album cover (Spotify, Apple Music, etc.)
+#   note     — short caption shown under artist name
+#
+# Examples below — replace with your own picks.
+
+# - title: AAA
+#   artist: HYUKOH(혁오), Sunset Rollercoaster
+#   youtube: MUHadUugJ9g
+
+
+- title: AAA
+  artist: HYUKOH, Sunset Rollercoaster
+  cover: assets/img/interests/music/aaa_hyukoh.png
+  link: https://youtu.be/MUHadUugJ9g?si=mxDRD8nQX6qhYPGF
+
+- title: NONG
+  artist: shinjihang
+  cover: assets/img/interests/music/nong_shinjihang.png
+  link: https://youtu.be/tp2SIpmMU70?si=BMU_NLQAf5-WyZ9z
+
+- title: Typical of Me
+  artist: Laufey
+  cover: assets/img/interests/music/typicalofme_laufey.png
+  link: https://youtu.be/P1V6cQJpbc4?si=UarhxkPPFzJjdYt5
+
+- title: Supernatural
+  artist: NewJeans
+  cover: assets/img/interests/music/supernatural_newjeans.png
+  link: https://youtu.be/8yXGI3kcLsw?si=J72KxxM93fMI7Do0
+
