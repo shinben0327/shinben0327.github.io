@@ -18,11 +18,6 @@ announcements:
   enabled: true # flip to true to show news from _news/ on the landing page
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false # show recent blog posts on the landing page
-  scrollable: true # vertical scroll bar once there are more than `limit` posts
-  limit: 3
 ---
 
 I am a Master's student in Robotics, Systems and Control at ETH Zurich. My research interests lie on legged robots, with a focus on learning-based control and motion imitation. You can find more about my research on the [projects page](/projects/).
