@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /interests/
-title: interests
+permalink: /personal/
+title: personal
 description: A few things outside of work that I enjoy.
 nav: true
 nav_order: 4

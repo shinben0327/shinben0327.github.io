@@ -4,7 +4,7 @@ title: Human-Object Interaction Retargeting (ongoing)
 description: Retargeting human-object interactions to robots using constrained optimisation and reinforcement learning.
 img: assets/img/projects/hoi_retargeting/cover.png
 importance: 1
-category: work
+category: robotics
 ---
 
 ## Overview

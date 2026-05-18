@@ -4,7 +4,7 @@ title: NomadZ RoboCup
 description: Teaching robots to play soccer using motion imitation reinforcement learning to participate in the RoboCup competition.
 img: assets/img/projects/nomadz/cover.png
 importance: 1
-category: fun
+category: robotics
 ---
 
 ## Overview
