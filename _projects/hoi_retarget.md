@@ -20,7 +20,18 @@ As part of my semester project at RSL (Robotic Systems Lab) for my Master's degr
 
 ## Demo
 
-We start with an inverse kinematics retargeter, which is limited by human-robot embodiment gap:
+We are given a source human demonstration in SMPL-X format from the OMOMO dataset:
+
+{% include video.liquid
+   path="assets/video/projects/hoi_retargeting/omomo.mp4"
+   class="img-fluid rounded z-depth-1"
+   controls=true
+   autoplay=true
+   loop=true
+   muted=true
+%}
+
+Start with an inverse kinematics retargeter, which is limited by human-robot embodiment gap:
 
 {% include video.liquid
    path="assets/video/projects/hoi_retargeting/ik.mp4"
