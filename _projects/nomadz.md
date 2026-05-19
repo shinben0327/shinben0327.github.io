@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NomadZ RoboCup
+title: NomadZ Humanoid Soccer Team
 description: Teaching robots to play soccer using motion imitation reinforcement learning to participate in the RoboCup competition.
 img: assets/img/projects/nomadz/cover.png
 importance: 1
@@ -14,7 +14,7 @@ As the motion control team lead of the NomadZ ETH Zurich RoboCup team, I work wi
 {% include figure.liquid
    path="assets/img/projects/nomadz/cover.png"
    class="img-fluid rounded z-depth-1"
-   caption="Retargeting human-object interaction data to robots."
+   caption="Training of dribbling policies for our Booster K1 robots using motion imitation reinforcement learning."
    zoomable=true
 %}
 

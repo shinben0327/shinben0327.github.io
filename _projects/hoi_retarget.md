@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Human-Object Interaction Retargeting (ongoing)
+title: Human-Object Interaction Retargeting
 description: Retargeting human-object interactions to robots using constrained optimisation and reinforcement learning.
 img: assets/img/projects/hoi_retargeting/cover.png
 importance: 1
@@ -9,7 +9,7 @@ category: robotics
 
 ## Overview
 
-As part of my semester project at RSL (Robotic Systems Lab) for my Master's degree, I am working on retargeting human-object interactions to robots using constrained optimisation and reinforcement learning. The goal of this project is to create physically plausible retargeted data of human demonstrations that can be used for downstream environments. The project is still ongoing, and is expected to be completed by the end of June.
+As part of my semester project at RSL (Robotic Systems Lab) for my Master's degree, I am working on retargeting human-object interactions to robots using constrained optimisation and reinforcement learning. The goal of this project is to create physically plausible retargeted data of human demonstrations that can be used for downstream environments. The project is still ongoing, and is expected to be completed by the end of June 2026.
 
 {% include figure.liquid
    path="assets/img/projects/hoi_retargeting/cover.png"
