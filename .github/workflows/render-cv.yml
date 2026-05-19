@@ -1,15 +1,8 @@
 name: Render a CV
+# Disabled automatic triggers: the site renders /cv/ from _data/cv.yml via Liquid
+# and does not need the Python `rendercv` package's stricter schema. Re-enable the
+# `push:` / `workflow_call:` blocks below if you want auto-generated PDFs again.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
-  workflow_call:
   workflow_dispatch:
 permissions:
   contents: write
