@@ -57,6 +57,9 @@ h1, h2, h3, .title, .subtitle {
 
 /* --------------------------------------------------------------- buttons -- */
 .link-row { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; }
+/* The hero's row sat almost on the affiliation line while the title above had
+   room to breathe; the gap now reads as belonging to the block, not to the text. */
+.hero .link-row { margin-top: 1.6rem; }
 
 .link-row .button {
   background: var(--ink);
@@ -323,4 +326,5 @@ figcaption strong, .caption strong { color: var(--ink); font-weight: 600; }
   min-height: 460px; border: 0; background: var(--surface-2);
 }
 .plate.embed figcaption { padding: 0.9rem 1.1rem; }
+.plate.embed:not(:has(figcaption)) { border-radius: 10px; }
 @media (max-width: 720px) { .plate.embed iframe { height: 70vh; min-height: 380px; } }
