@@ -8,8 +8,10 @@
   --rule:       #e3e3e8;
   --surface:    #ffffff;
   --surface-2:  #f7f7f9;
-  --accent:     #b4541f;   /* matches the orange objects in the renders */
-  --accent-dim: #f3e6dd;
+  /* No hue. The renders carry the only colour on the page; the type and the
+     rules stay black so nothing competes with them. */
+  --accent:     #1c1c1f;
+  --accent-dim: #f0f0f2;
 }
 
 body {
@@ -308,3 +310,17 @@ figcaption strong, .caption strong { color: var(--ink); font-weight: 600; }
   .rowlabel-grid { grid-template-columns: 1.9rem 1fr; }
   .row-labels span { font-size: 0.6rem; }
 }
+
+/* Author links: the names read as names, not as links, until you reach for one. */
+.venue-line a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--rule); }
+.venue-line a:hover { border-bottom-color: var(--ink); }
+
+/* The embedded viewer. 16:10 on desktop, taller on a phone where the viewer
+   stacks its own panels; it needs real height or it is unusable. */
+.plate.embed { padding: 0; overflow: hidden; }
+.plate.embed iframe {
+  display: block; width: 100%; height: min(78vh, 760px);
+  min-height: 460px; border: 0; background: var(--surface-2);
+}
+.plate.embed figcaption { padding: 0.9rem 1.1rem; }
+@media (max-width: 720px) { .plate.embed iframe { height: 70vh; min-height: 380px; } }
