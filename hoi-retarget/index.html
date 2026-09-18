@@ -237,7 +237,14 @@
   </div>
 </section>
 
-<!-- ======================================================== COMPARISON === -->
+<!-- ==================================== COMPARISON (PARKED) === -->
+<!-- Taken off the live page on 2026-09-18, kept so it can be switched back on.
+     To restore: delete this wrapper, then change every `<!~~` back to an HTML
+     comment opener and every `~~>` back to a closer. They are disguised
+     because HTML comments do not nest -- and note this very sentence cannot
+     spell the closer either, which is why it is described rather than shown.
+
+<!~~ ======================================================== COMPARISON === ~~>
 <section class="section is-tinted">
   <div class="container is-max-desktop">
     <p class="section-kicker">Comparison</p>
@@ -271,6 +278,7 @@
     
   </div>
 </section>
+-->
 
 <!-- ====================================================== AUGMENTATION === -->
 <section class="section">
@@ -402,28 +410,23 @@
       <div class="stat"><b>75</b><span>unique objects</span></div>
       <div class="stat"><b>2</b><span>humanoid platforms</span></div>
     </div>
-    <p style="margin-top: 1.5rem;">
+    <!-- The viewer, in the page. Loaded lazily: it streams the corpus index and a
+         clip's worth of geometry, which is not something to pay for on first paint. -->
+    <figure class="plate embed" style="margin-top: 2rem;">
+      <iframe src="https://shinben0327-hoi-retarget-viewer.static.hf.space/?theme=light"
+              title="HOI-Retarget Contact Playback — every clip in the corpus, in 3D"
+              loading="lazy" allow="fullscreen; xr-spatial-tracking"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </figure>
+
+    <div class="link-row" style="margin-top: 1.75rem;">
       <a class="button" href="https://huggingface.co/datasets/shinben0327/hoi-retarget">
         <span class="icon"><i class="fas fa-database"></i></span><span>Dataset</span>
       </a>
       <a class="button" href="https://huggingface.co/spaces/shinben0327/hoi-retarget-viewer">
         <span class="icon"><i class="fas fa-cube"></i></span><span>3D viewer</span>
       </a>
-    </p>
-
-    <!-- The viewer, in the page. Loaded lazily: it streams the corpus index and a
-         clip's worth of geometry, which is not something to pay for on first paint. -->
-    <figure class="plate embed" style="margin-top: 2.5rem;">
-      <iframe src="https://shinben0327-hoi-retarget-viewer.static.hf.space/?theme=light"
-              title="HOI-Retarget Contact Playback — every clip in the corpus, in 3D"
-              loading="lazy" allow="fullscreen; xr-spatial-tracking"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <figcaption>
-        Every clip in the corpus, in the browser. A contact link tints on the frames its
-        flag is set. Collaborative clips place both robots in one scene.
-        <a href="https://huggingface.co/spaces/shinben0327/hoi-retarget-viewer" target="_blank" rel="noopener noreferrer">Open it full-screen</a>.
-      </figcaption>
-    </figure>
+    </div>
   </div>
 </section>
 
