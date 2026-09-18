@@ -18,7 +18,13 @@
   <meta property="og:title" content="HOI-Retarget: Contact-Centric Retargeting for Human-Object Interaction">
   <meta property="og:description"
         content="Contact-centric retargeting of human-object interaction onto humanoid robots.">
-  <meta property="og:image" content="./static/images/teaser.jpg">
+  <!-- Absolute on purpose: Open Graph consumers do not resolve a relative
+       path, so a link preview silently loses its image. -->
+  <meta property="og:image" content="https://shinben0327.github.io/hoi-retarget/static/images/teaser.jpg">
+  <meta property="og:image:alt" content="A Unitree G1 carrying a chair, table and box, with its contact links highlighted.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HOI-Retarget: Contact-Centric Retargeting for Human-Object Interaction">
+  <meta name="twitter:image" content="https://shinben0327.github.io/hoi-retarget/static/images/teaser.jpg">
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,600|Noto+Sans:400,600&display=swap"
         rel="stylesheet">
