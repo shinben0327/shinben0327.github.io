@@ -114,7 +114,7 @@ h1, h2, h3, .title, .subtitle {
 
 /* ------------------------------------------------------- figures + video -- */
 figure.plate { margin: 0 0 1.2rem; }
-figure.plate img { display: block; width: 100%; border-radius: 6px; }
+figure.plate img, figure.plate video { display: block; width: 100%; border-radius: 6px; }
 figure.plate.is-bordered img { border: 1px solid var(--rule); }
 
 figcaption, .caption {
